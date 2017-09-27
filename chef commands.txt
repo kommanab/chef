@@ -1,0 +1,62 @@
+﻿1)   curl -L https://www.opscode.com/chef/install.sh | bash
+
+2)knife bootstrap hitesh2.mylabserver.com -x root -P Google@123 -N linuxnode
+
+3)  knife cookbook create motd
+
+4) knife cookbook upload motd
+
+5)  knife node run_list add linuxnode1 "recipe[apache]"
+
+6) knife data bag create users
+
+7)knife data_bag from file users admin.json
+
+8)knife role create role_name
+
+9) knife role from file chef-repo/roles/rolename.rb
+
+10) knife role list -w
+	
+
+
+	    he System Administrator’s Guide to Bash Scripting
+		LPC level 2
+		Linux Foundation Certified Systems Engineer
+		LPIC-2: Linux Engineer Exam 201
+
+saurabhdev01
+learnchef@123
+
+10.202.7.233
+10.202.156.153
+
+
+docker run --privileged  -itd -e "container=docker"  -v /sys/fs/cgroup:/sys/fs/cgroup  centos:latest  /usr/sbin/init
+Visual VM
+IOT
+kafka,zookeeper,chef,cloud,casandra,JMS(rabbitmq),elastic search
+
+remote_file '/etc/yum.repos.d/jenkins.repo'
+        source 'http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo'
+        owner 'root'
+        group 'root'
+        mode '0644'
+        action :create
+$end
+
+
+
+
+
+
+dig command
+nslookup
+/etc/hosts and /etc/resolve
+get the number of file which have size 0
+number people in certain age group
+unique IP address in fifferent timestamp
+How to get number of active connections	in database
+
+
+
